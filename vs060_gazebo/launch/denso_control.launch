@@ -1,7 +1,7 @@
 <launch>
 
   <!-- Load joint controller configurations from YAML file to parameter server -->
-  <rosparam file="$(find denso_control)/config/denso_controllers.yaml" command="load"/>
+  <rosparam file="$(find vs060_gazebo)/config/denso_controllers.yaml" command="load"/>
 
   <!-- load the controllers -->
   <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
