@@ -24,3 +24,8 @@ Install ros_control from debian packages
 2) If you want to command the robot and see the performance, you can run the following line
 
 `roslaunch vs060_gazebo vs060_rqt.launch`
+
+## How to run it on Rviz
+If you want to see the image of the camera, open a new terminal and run the following
+
+`rosrun image_view image_view image:=/vs060/camera/image_raw`
