@@ -1,22 +1,23 @@
 <?xml version="1.0"?>
 <package>
-  <name>denso_control</name>
+  <name>vs060_gazebo</name>
   <version>0.0.0</version>
-  <description>The denso_control package</description>
+  <description>The vs060_gazebo package</description>
   
   <maintainer email="mahsa.parsapour@gmail.com">Mahsa Parsapour</maintainer>
 
   <license>BSD</license>
 
-  <url type="website">http://http://gazebosim.org/w/index.php?title=Tutorials/1.9/Using_A_URDF_In_Gazebo</url>
-  <url type="bugtracker">https://github.com/osrf/gazebo_ros_demos/issues</url>
-  <url type="repository">https://github.com/osrf/gazebo_ros_demos</url>
+  <url type="bugtracker">https://github.com/MahsaP/gazebo_ros_denso/issues</url>
+  <url type="repository">https://github.com/MahsaP/gazebo_ros_denso</url>
 
   <author email="mahsa.parsapour@gmail.com">Mahsa Parsapour</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 
   <run_depend>controller_manager</run_depend>
+  <run_depend>denso_description</run_depend>
+  <run_depend>gazebo_ros</run_depend> 
 
   <export>
   </export>
