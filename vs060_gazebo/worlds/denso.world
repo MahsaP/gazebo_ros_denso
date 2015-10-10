@@ -19,9 +19,6 @@
         <view_controller>orbit</view_controller>
       </camera>
     </gui>
-    
-    <!-- reference to your plugin -->
-    <!--plugin name="pidtuning" filename="libpidtuning.so"/-->
 
   </world>
 </sdf>
