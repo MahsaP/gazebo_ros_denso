@@ -4,14 +4,13 @@
   <version>0.0.0</version>
   <description>The vs060_gazebo package</description>
   
-  <maintainer email="mahsa.parsapour@gmail.com">Mahsa Parsapour</maintainer>
+  <author>Mahsa Parsapour</author>
+  <maintainer email="mahsa.parsapour@gmail.com">Mahsa Parsapour</maintainer> >
 
   <license>BSD</license>
 
   <url type="bugtracker">https://github.com/MahsaP/gazebo_ros_denso/issues</url>
   <url type="repository">https://github.com/MahsaP/gazebo_ros_denso</url>
-
-  <author email="mahsa.parsapour@gmail.com">Mahsa Parsapour</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 
