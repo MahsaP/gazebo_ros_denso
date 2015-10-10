@@ -70,7 +70,7 @@
                 }, 
                 "topics": {
                   "type": "repr", 
-                  "repr": "[u'/denso/joint1_position_controller/command/data', u'/denso/joint1_position_controller/state/process_value', u'/denso/joint1_position_controller/state/error']"
+                  "repr": "[u'/vs060/joint1_position_controller/command/data', u'/vs060/joint1_position_controller/state/process_value', u'/vs060/joint1_position_controller/state/error']"
                 }, 
                 "y_limits": {
                   "type": "repr", 
@@ -113,7 +113,7 @@
                 }, 
                 "topics": {
                   "type": "repr", 
-                  "repr": "[u'/denso/joint2_position_controller/state/process_value', u'/denso/joint2_position_controller/command/data', u'/denso/joint2_position_controller/state/error']"
+                  "repr": "[u'/vs060/joint2_position_controller/state/process_value', u'/vs060/joint2_position_controller/command/data', u'/vs060/joint2_position_controller/state/error']"
                 }, 
                 "y_limits": {
                   "type": "repr", 
@@ -156,7 +156,7 @@
                 }, 
                 "topics": {
                   "type": "repr", 
-                  "repr": "[u'/denso/joint3_position_controller/state/error', u'/denso/joint3_position_controller/state/process_value', u'/denso/joint3_position_controller/command/data']"
+                  "repr": "[u'/vs060/joint3_position_controller/state/error', u'/vs060/joint3_position_controller/state/process_value', u'/vs060/joint3_position_controller/command/data']"
                 }, 
                 "y_limits": {
                   "type": "repr", 
@@ -199,7 +199,7 @@
                 }, 
                 "topics": {
                   "type": "repr", 
-                  "repr": "[u'/denso/joint4_position_controller/command/data', u'/denso/joint4_position_controller/state/error', u'/denso/joint4_position_controller/state/process_value']"
+                  "repr": "[u'/vs060/joint4_position_controller/command/data', u'/vs060/joint4_position_controller/state/error', u'/vs060/joint4_position_controller/state/process_value']"
                 }, 
                 "y_limits": {
                   "type": "repr", 
@@ -242,7 +242,7 @@
                 }, 
                 "topics": {
                   "type": "repr", 
-                  "repr": "[u'/denso/joint5_position_controller/state/error', u'/denso/joint5_position_controller/command/data', u'/denso/joint5_position_controller/state/process_value']"
+                  "repr": "[u'/vs060/joint5_position_controller/state/error', u'/vs060/joint5_position_controller/command/data', u'/vs060/joint5_position_controller/state/process_value']"
                 }, 
                 "y_limits": {
                   "type": "repr", 
@@ -285,7 +285,7 @@
                 }, 
                 "topics": {
                   "type": "repr", 
-                  "repr": "[u'/denso/joint6_position_controller/command/data', u'/denso/joint6_position_controller/state/error', u'/denso/joint6_position_controller/state/process_value']"
+                  "repr": "[u'/vs060/joint6_position_controller/command/data', u'/vs060/joint6_position_controller/state/error', u'/vs060/joint6_position_controller/state/process_value']"
                 }, 
                 "y_limits": {
                   "type": "repr", 
@@ -363,7 +363,7 @@
               "keys": {
                 "publishers": {
                   "type": "repr", 
-                  "repr": "u\"[{'topic_name': '/denso/joint1_position_controller/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 100.0, 'expressions': {u'/denso/joint1_position_controller/command/data': '1'}, 'publisher_id': 0, 'counter': 0}, {'topic_name': '/denso/joint2_position_controller/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 100.0, 'expressions': {u'/denso/joint2_position_controller/command/data': '1'}, 'publisher_id': 1, 'counter': 0}, {'topic_name': '/denso/joint3_position_controller/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 100.0, 'expressions': {u'/denso/joint3_position_controller/command/data': '1'}, 'publisher_id': 2, 'counter': 0}, {'topic_name': '/denso/joint4_position_controller/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 100.0, 'expressions': {u'/denso/joint4_position_controller/command/data': '1'}, 'publisher_id': 3, 'counter': 0}, {'topic_name': '/denso/joint5_position_controller/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 100.0, 'expressions': {u'/denso/joint5_position_controller/command/data': '1'}, 'publisher_id': 4, 'counter': 0}, {'topic_name': '/denso/joint6_position_controller/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 100.0, 'expressions': {u'/denso/joint6_position_controller/command/data': '1'}, 'publisher_id': 5, 'counter': 0}]\""
+                  "repr": "u\"[{'topic_name': '/vs060/joint1_position_controller/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 100.0, 'expressions': {u'/vs060/joint1_position_controller/command/data': '1'}, 'publisher_id': 0, 'counter': 0}, {'topic_name': '/vs060/joint2_position_controller/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 100.0, 'expressions': {u'/vs060/joint2_position_controller/command/data': '1'}, 'publisher_id': 1, 'counter': 0}, {'topic_name': '/vs060/joint3_position_controller/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 100.0, 'expressions': {u'/vs060/joint3_position_controller/command/data': '1'}, 'publisher_id': 2, 'counter': 0}, {'topic_name': '/vs060/joint4_position_controller/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 100.0, 'expressions': {u'/vs060/joint4_position_controller/command/data': '1'}, 'publisher_id': 3, 'counter': 0}, {'topic_name': '/vs060/joint5_position_controller/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 100.0, 'expressions': {u'/vs060/joint5_position_controller/command/data': '1'}, 'publisher_id': 4, 'counter': 0}, {'topic_name': '/vs060/joint6_position_controller/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 100.0, 'expressions': {u'/vs060/joint6_position_controller/command/data': '1'}, 'publisher_id': 5, 'counter': 0}]\""
                 }
               }, 
               "groups": {}
