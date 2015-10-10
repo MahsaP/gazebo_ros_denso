@@ -6,7 +6,7 @@
   </material>
 
   <material name="blue">
-    <color rgba="0.0 0.0 0.8 1.0"/>
+    <color rgba="0.0 0.0 1.0 0.2"/>
   </material>
 
   <material name="green">
@@ -32,5 +32,9 @@
   <material name="white">
     <color rgba="1.0 1.0 1.0 1.0"/>
   </material>
-
+  
+  <material name="lightgrey">
+    <color rgba="0.7 0.7 0.7 1.0"/>
+  </material>
+  
 </robot>
