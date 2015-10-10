@@ -21,6 +21,6 @@ Install ros_control from debian packages
 
 `roslaunch vs060_gazebo vs060_gazebo.launch`
 
-2) If you want to command the robot and see the performance you can run the following line
+2) If you want to command the robot and see the performance, you can run the following line
 
 `roslaunch vs060_gazebo vs060_rqt.launch`
