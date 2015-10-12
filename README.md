@@ -16,6 +16,8 @@ Install ros_control from debian packages
 ## How to run it on Rviz
 `roslaunch denso_description denso_rviz.launch`
 
+![v060-rviz](https://cloud.githubusercontent.com/assets/12606874/10432637/4dcf4b44-7119-11e5-834f-582ff2cda70a.png)
+
 ## How to run it on Gazebo
 1) Launch the robot into gazebo.
 
