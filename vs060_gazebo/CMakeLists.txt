@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(vs060_gazebo)
 
-find_package(catkin REQUIRED)
+find_package(catkin REQUIRED COMPONENTS std_msgs roscpp)
 
 catkin_package()
 
@@ -13,3 +13,7 @@ install(DIRECTORY launch
 
 install(DIRECTORY worlds
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
+  
+include_directories(include ${catkin_INCLUDE_DIRS})
+add_executable(poseCommand src/poseCommand.cpp)
+target_link_libraries(poseCommand ${catkin_LIBRARIES})
